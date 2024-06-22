@@ -3,58 +3,94 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ホーム - Minecraft & AI 開発者ポートフォリオ</title>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <title>てくのロープ計画事務所</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="animations.css">
+
 </head>
 <body>
-    <header>
-        <div class="container">
-            <h1>あなたの名前</h1>
-            <nav>
-                <ul>
-                    <li><a href="index.html">ホーム</a></li>
-                    <li><a href="projects.html">プロジェクト</a></li>
-                    <li><a href="contact.html">お問い合わせ</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-
-    <main class="container">
-        <section class="card" style="margin-top: 40px;">
-            <div class="card-content">
-                <h2>私について</h2>
-                <p>
-                    こんにちは！私はMinecraftワールド作成と生成AIアプリ開発を専門とするクリエイティブデベロッパーです。
-                    想像力豊かなMinecraftの世界と最先端のAI技術を組み合わせ、革新的なプロジェクトを生み出すことに情熱を注いでいます。
-                    私のスキルセットは、没入感のあるゲーム体験の創造から、インテリジェントなアプリケーションの開発まで幅広く、
-                    常に新しい挑戦を求めています。
-                </p>
-            </div>
-        </section>
-
-        <section class="card" style="margin-top: 40px;">
-            <div class="card-content">
-                <h2>専門スキル</h2>
-                <div class="skills">
-                    <span class="skill-badge">Minecraft ワールド設計</span>
-                    <span class="skill-badge">AI アルゴリズム実装</span>
-                    <span class="skill-badge">機械学習モデル開発</span>
-                    <span class="skill-badge">Python</span>
-                    <span class="skill-badge">Java</span>
-                    <span class="skill-badge">TensorFlow</span>
-                    <span class="skill-badge">PyTorch</span>
-                    <span class="skill-badge">プロシージャル生成</span>
+    <div class="container">
+        <header>
+            <h1>てくのロープ計画事務所</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <main>
+            <section id="hero">
+                <h2 class="main-title">Connect the World<br>with Technology.</h2>
+                <h3 class="subtitle">テクノロジーで世界をつなげる</h3>
+            </section>
+            <section id="services">
+                <h2 class="fade-in main-title">Our Services</h2>
+                <div class="service-container">
+                    <div class="service-item fade-in">
+                        <h3>Minecraft</h3>
+                        <img src="images/index/waseda.png" alt="Minecraft World" class="service-image">
+                        <p>現実世界を再現したMinecraftのワールドの制作とワークショップの運営</p>
+                    </div>
+                    <div class="service-item fade-in">
+                        <h3>AI Agent</h3>
+                        <img src="images/index/ai_agent.avif" alt="AI Agent" class="service-image">
+                        <p>業務時短を目的としたルーティンタスクを実行するAIエージェントの作成</p>
+                    </div>
                 </div>
-            </div>
-        </section>
-    </main>
-
-    <footer>
-        <div class="container">
-            <p>&copy; 2024 あなたの名前. All rights reserved.</p>
-        </div>
-    </footer>
+            </section>            
+            <section id="latest">
+                <h2 class="fade-in main-title">Latest Activities</h2>
+                <div class="latest-container">
+                  <div class="latest-item fade-in">
+                    <h3>生成AI塾での講義</h3>
+                    <img src="images/index/ai.avif" alt="生成AI塾での講義" class="latest-image">
+                    <p>2024年5月26日に、生成AI塾にてDifyの講義を行いました。</p>
+                  </div>
+                  <div class="latest-item fade-in">
+                    <h3>生成AIを導入したワークショップ</h3>
+                    <img src="images/index/workshop.avif" alt="生成AIを導入したワークショップ" class="latest-image">
+                    <p>2024年6月1日に、生成AIを活用したワークショップの運営補助を行いました。</p>
+                  </div>
+                  <div class="latest-item fade-in">
+                    <h3>慶応義塾大学での講義</h3>
+                    <img src="images/index/keio.jpg" alt="新プロジェクト" class="latest-image">
+                    <p>2024年6月6日に、慶應義塾大学システムデザインマネジメント研究科にてMinecraftの講義を行いました。</p>
+                  </div>
+                </div>
+              </section>          
+        </main>
+    </div>
+    <script src="script.js"></script>
 </body>
+<footer>
+    <div class="footer-content">
+        <div class="footer-section">
+            <h3>てくのロープ計画事務所</h3>
+            <p>テクノロジーで世界をつなげる</p>
+        </div>
+        <div class="footer-section">
+            <h3>リンク</h3>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h3>お問い合わせ</h3>
+            <p>Email: bakurikuolaugh@gmail.com</p>
+            <p>Tel: 03-XXXX-XXXX</p>
+        </div>
+        <div class="footer-section">
+            <h3>フォローする</h3>
+            <a href="https://x.com/Tech_Rope0801" target="_blank" rel="noopener noreferrer">X（旧Twitter）</a>
+            <a href="https://www.facebook.com/profile.php?id=100061768075311" target="_blank" rel="noopener noreferrer">Facebook</a>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2024 てくのロープ計画事務所. All rights reserved.</p>
+    </div>
+</footer>
 </html>

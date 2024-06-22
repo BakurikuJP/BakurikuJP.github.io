@@ -3,43 +3,78 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>お問い合わせ - Minecraft & AI 開発者ポートフォリオ</title>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <title>てくのロープ計画事務所 - お問い合わせ</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="animations.css">
 </head>
 <body>
-    <header>
-        <div class="container">
-            <h1>あなたの名前</h1>
-            <nav>
-                <ul>
-                    <li><a href="index.html">ホーム</a></li>
-                    <li><a href="projects.html">プロジェクト</a></li>
-                    <li><a href="contact.html">お問い合わせ</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-
-    <main class="container">
-        <section class="card" style="margin-top: 40px;">
-            <div class="card-content">
-                <h2>お問い合わせ</h2>
-                <p>
-                    新しいプロジェクトのアイデアやコラボレーションのご提案など、お気軽にご連絡ください。
-                    一緒に、Minecraftとテクノロジーの可能性を広げていきましょう。
-                </p>
-                <p>Email: your.email@example.com</p>
-                <p>LinkedIn: <a href="https://linkedin.com/in/yourprofile" style="color: var(--accent);">linkedin.com/in/yourprofile</a></p>
-                <p>GitHub: <a href="https://github.com/yourusername" style="color: var(--accent);">github.com/yourusername</a></p>
-            </div>
-        </section>
-    </main>
-
-    <footer>
-        <div class="container">
-            <p>&copy; 2024 あなたの名前. All rights reserved.</p>
-        </div>
-    </footer>
+    <div class="container">
+        <header>
+            <h1>てくのロープ計画事務所</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <main>
+            <section id="contact">
+                <h2 class="main-title">Contact Us</h2>
+                <p class="subtitle">お問い合わせはこちらから</p>
+                <div class="contact-form fade-in">
+                    <form id="contact-form">
+                        <div class="form-group">
+                            <label for="name" class="required">お名前</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email" class="required">メールアドレス</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">件名</label>
+                            <input type="text" id="subject" name="subject">
+                        </div>
+                        <div class="form-group">
+                            <label for="message" class="required">メッセージ</label>
+                            <textarea id="message" name="message" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">送信</button>
+                    </form>
+                </div>
+            </section>
+        </main>
+    </div>
+    <script src="script.js"></script>
 </body>
+<footer>
+    <div class="footer-content">
+        <div class="footer-section">
+            <h3>てくのロープ計画事務所</h3>
+            <p>テクノロジーで世界をつなげる</p>
+        </div>
+        <div class="footer-section">
+            <h3>リンク</h3>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h3>お問い合わせ</h3>
+            <p>Email: bakurikuolaugh@gmail.com</p>
+        </div>
+        <div class="footer-section">
+            <h3>フォローする</h3>
+            <a href="https://x.com/Tech_Rope0801" target="_blank" rel="noopener noreferrer">X（旧Twitter）</a>
+            <a href="https://www.facebook.com/profile.php?id=100061768075311" target="_blank" rel="noopener noreferrer">Facebook</a>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2024 てくのロープ計画事務所. All rights reserved.</p>
+    </div>
+</footer>
 </html>

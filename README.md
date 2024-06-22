@@ -1,1 +1,0 @@
-# BakurikuJP.github.io
